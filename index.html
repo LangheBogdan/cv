@@ -20,9 +20,31 @@
   <p class="masthead-description">
     <del>Detail-oriented, organized and meticulous. Excellent communication and
       organizational abilities with resourceful approach to solving diverse
-      problems.</del>
+      problems.
+    </del>
   </p>
-  <p>I'm not actually talking about me here.</p>
+  <p><span>I'm not actually talking
+    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#aboutMeModal">about me</button>
+    here.</span></p>
+
+  <!-- Modal -->
+  <div class="modal fade" id="aboutMeModal" tabindex="-1" aria-labelledby="aboutMeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Those Things I'm Not</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
 <main>
   <section class="skills container-md">
@@ -30,7 +52,7 @@
     <div class="row">
       <div class="col-12 col-sm-6 col-md-3 mb-3">
         <div class="card">
-          <div class="card-header html-bg">HTML</div>
+          <div class="card-header html-bg border-bottom border-dark border-4">HTML</div>
           <div class="card-body">
             <h3>Expert</h3>
           </div>
